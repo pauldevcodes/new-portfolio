@@ -9,14 +9,14 @@ export default function Portfolio() {
   const [index, setIndex] = useState(0);
   const handleNextClick = () => {
     setIndex(index + 1);
-    if (index === 1) {
+    if (index === (ProjectLists.length - 1)) {
       setIndex(0);
     }
   };
   const handlePrevClick = () => {
     setIndex(index - 1);
     if (index === 0) {
-      setIndex(1);
+      setIndex(ProjectLists.length - 1);
     }
   };
   let project = ProjectLists[index];
