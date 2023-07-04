@@ -16,7 +16,7 @@ export default function About() {
         <Image
           src={profilePicture}
           alt="profile of Paul Okwulu"
-          className=" w-[361px] h-[455px] object-cover md:h-full md:w-full"
+          className=" w-full h-full object-cover"
           loading="lazy"
         />
       </div>
