@@ -12,11 +12,11 @@ export default function About() {
       id="about"
       className=" px-8 flex flex-col gap-y-10 md:px-10 md:flex-row md:gap-x-10 md:items-stretch xl:px-[160px]"
     >
-      <div className=" flex-1 bg-black">
+      <div className=" relative flex-1 bg-black">
         <Image
           src={profilePicture}
           alt="profile of Paul Okwulu"
-          className=" w-full h-full object-cover"
+          className=" w-[361px] h-[455px] object-cover md:h-full md:w-full"
           loading="lazy"
         />
       </div>
