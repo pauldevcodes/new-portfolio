@@ -29,7 +29,7 @@ export default function About() {
             Javascript code, I mostly use React, but I can adapt to whatever
             tools are required. I'm based in Lagos, Nigeria, but I'm happy
             working remotely. When I'm not coding, you'll either find me playing
-            my elctric guitar with my musicians or playing games or watching
+            my electric guitar with my musicians or playing games or watching
             k-drama and animes. I'd love for you to check out my work.
           </p>
           <Link
