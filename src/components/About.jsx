@@ -18,6 +18,7 @@ export default function About() {
           alt="profile of Paul Okwulu"
           className=" w-full h-full object-cover"
           priority={true}
+          placeholder="blur"
         />
       </div>
       <div className=" flex-1 flex flex-col justify-between">
