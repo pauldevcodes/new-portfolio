@@ -13,7 +13,12 @@ export default function About() {
       className=" px-8 flex flex-col gap-y-10 md:px-10 md:flex-row md:gap-x-10 md:items-stretch xl:px-[160px]"
     >
       <div className=" flex-1 bg-black">
-        <Image src={profilePicture} alt="profile of Paul Okwulu" className=" w-full h-full object-cover" />
+        <Image
+          src={profilePicture}
+          alt="profile of Paul Okwulu"
+          className=" w-full h-full object-cover"
+          priority={true}
+        />
       </div>
       <div className=" flex-1 flex flex-col justify-between">
         <div className=" bg-gray-300 h-[1px] w-full md:w-1/2"></div>
@@ -23,14 +28,15 @@ export default function About() {
             About Me
           </h2>
           <p className=" text-slate-600 text-sm my-7 md:text-base">
-            I&apos;m a junior front-end developer looking for a new role in a startup
-            or an existing company. I focus on writing accessible HTML, using
-            modern CSS practices and writing clean Javascript. When writing
-            Javascript code, I mostly use React, but I can adapt to whatever
-            tools are required. I&apos;m based in Lagos, Nigeria, but I&apos;m happy
-            working remotely. When I&apos;m not coding, you&apos;ll either find me playing
-            my electric guitar with my musicians or playing games or watching
-            k-drama and animes. I&apos;d love for you to check out my work.
+            I&apos;m a junior front-end developer looking for a new role in a
+            startup or an existing company. I focus on writing accessible HTML,
+            using modern CSS practices and writing clean Javascript. When
+            writing Javascript code, I mostly use React, but I can adapt to
+            whatever tools are required. I&apos;m based in Lagos, Nigeria, but
+            I&apos;m happy working remotely. When I&apos;m not coding,
+            you&apos;ll either find me playing my electric guitar with my
+            musicians or playing games or watching k-drama and animes. I&apos;d
+            love for you to check out my work.
           </p>
           <Link
             href="/portfolio"
