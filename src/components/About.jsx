@@ -17,8 +17,7 @@ export default function About() {
           src={profilePicture}
           alt="profile of Paul Okwulu"
           className=" w-full h-full object-cover"
-          priority={true}
-          placeholder="blur"
+          loading="lazy"
         />
       </div>
       <div className=" flex-1 flex flex-col justify-between">

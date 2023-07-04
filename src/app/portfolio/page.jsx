@@ -31,8 +31,7 @@ export default function Portfolio() {
         src={project.img}
         alt="project pic"
         className=" w-full h-1/2"
-        priority={true}
-        placeholder="blur"
+        loading="lazy"
       />
       <div className=" mt-14 flex flex-col gap-y-12 lg:flex-row lg:gap-x-12">
         <div className=" flex flex-col items-start gap-y-5 flex-1">
