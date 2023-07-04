@@ -23,14 +23,14 @@ export default function About() {
             About Me
           </h2>
           <p className=" text-slate-600 text-sm my-7 md:text-base">
-            I'm a junior front-end developer looking for a new role in a startup
+            I&apos;m a junior front-end developer looking for a new role in a startup
             or an existing company. I focus on writing accessible HTML, using
             modern CSS practices and writing clean Javascript. When writing
             Javascript code, I mostly use React, but I can adapt to whatever
-            tools are required. I'm based in Lagos, Nigeria, but I'm happy
-            working remotely. When I'm not coding, you'll either find me playing
+            tools are required. I&apos;m based in Lagos, Nigeria, but I&apos;m happy
+            working remotely. When I&apos;m not coding, you&apos;ll either find me playing
             my electric guitar with my musicians or playing games or watching
-            k-drama and animes. I'd love for you to check out my work.
+            k-drama and animes. I&apos;d love for you to check out my work.
           </p>
           <Link
             href="/portfolio"

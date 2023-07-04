@@ -8,7 +8,7 @@ export default function Home() {
         <div className=" flex flex-col justify-center h-screen">
           <div className=" flex flex-col items-start gap-y-10">
             <h1 className=" text-3xl font-semibold text-slate-900">
-              Hey &#x1F44B;, <br /> I'm Paul Okwulu and I love building
+              Hey &#x1F44B;, <br /> I&apos;m Paul Okwulu and I love building
               beautiful websites and functional web applications &#128512;
             </h1>
 
