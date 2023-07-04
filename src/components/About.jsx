@@ -4,7 +4,7 @@ import Link from "next/link";
 // fonts
 import { karla } from "@/app/fonts";
 // images
-import profilePicture from "../../public/profile pic.jpg";
+import profilePicture from "../../public/resized profile.jpg";
 
 export default function About() {
   return (
