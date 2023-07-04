@@ -19,7 +19,7 @@ export default function Footer() {
     {
       id: 3,
       link: "contact me",
-      url: "contact",
+      url: "#contact",
     },
   ];
 
