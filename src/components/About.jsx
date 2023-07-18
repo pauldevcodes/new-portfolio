@@ -28,7 +28,7 @@ export default function About() {
             About Me
           </h2>
           <p className=" text-slate-600 text-sm my-7 md:text-base">
-            I&apos;m a junior front-end developer looking for a new role in a
+            I&apos;m a full-stack developer (FE heavy) looking for a new role in a
             startup or an existing company. I focus on writing accessible HTML,
             using modern CSS practices and writing clean Javascript. When
             writing Javascript code, I mostly use React, but I can adapt to
